@@ -43,3 +43,42 @@ height: auto;
  }
 
  /* Rublik 700,400,500   */
+
+/* SITE-HEADER */
+ .site-header {
+
+}
+/* SITE-HEADER-TOP */
+.site-header-top {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #f6f6f6;
+}
+.site-header-top-container {
+  display: flex;
+  align-items: center;
+}
+.container {
+}
+.logo {
+}
+.logo-img {
+}
+.currency-rates {
+}
+.currency-rates-item {
+}
+.currency-rates-type {
+}
+.currency-rates-value {
+}
+.lang-toggle {
+}
+.lang-toggle-link {
+}
+.lang-toggle-link-active {
+}
+.button {
+}
+.button-primary {
+}
