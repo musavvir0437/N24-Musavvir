@@ -169,7 +169,19 @@ outline-offset: 3px;
   background-color: #fff;
   color: #000;
 }
-.button {
+ 
+
+
+
+/* SITENAV */
+
+.sitenav {
+  border-bottom: 1px solid #d1d1d1;
+  
 }
-.button-primary {
+.sitenav-list {
 }
+.sitenav-item {
+}
+.sitenav-link {
+}   
