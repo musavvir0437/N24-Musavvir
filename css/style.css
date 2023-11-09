@@ -363,14 +363,36 @@ display: flex;
   object-fit: cover;
 }
 .article-card-horizontal-content {
+  flex-grow: 1;
 }
 .article-card-horizontal-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 500;
 }
 .article-card-horizontal-link {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
 }
+.article-card-horizontal-link:hover{
+  color: #7296EC;
+}
+.article-card-horizontal-link:active{
+  opacity: 0.6;
+}
+
 .article-card-horizontal-text {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 22px;
 }
 .article-card-horizontal-footer {
+  display: flex;
+  align-items: center;
 }
 .article-card-horizontal-source-icon {
 }
