@@ -723,6 +723,17 @@ img {
   resize: vertical;
 }
 
+/* DEFINITIONS-CARD */
+.contact-page-definitions-card {}
+
+.definitions-card {}
+
+.definitons-card-item {}
+
+.definitons-card-title {}
+
+.definitons-card-value {}
+
 /* CONTACT-PAGE */
 
 .contact-page-heading {
@@ -732,6 +743,10 @@ img {
   line-height: 29px;
   font-weight: 500;
   color: #000;
+}
+
+.contact-page-content {
+  display: flex;
 }
 
 .contact-page-form {
