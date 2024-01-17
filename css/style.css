@@ -150,11 +150,14 @@ img {
   padding-right: 20px;
   padding-bottom: 13px;
   padding-left: 40px;
-
   border-radius: 60px;
   border: 0;
   font-size: 14px;
   line-height: normal;
+  background-image: url("../img/search.svg");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 15px center;
 }
 
 
@@ -345,6 +348,10 @@ img {
   margin: 60px 75px;
   border-radius: 10px;
   background-color: #ffd7ba;
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 .notification-cta-text {
@@ -538,7 +545,7 @@ img {
 }
 
 .sidebar-news-card-source-time {
-  font-style: 13px;
+  font-size: 13px;
   line-height: normal;
   color: #5e5f61;
 
@@ -724,15 +731,35 @@ img {
 }
 
 /* DEFINITIONS-CARD */
-.contact-page-definitions-card {}
+.definitions-card {
+  padding: 20px 25px;
+  margin: 0;
+  border-radius: 10px;
+  background-color: #f6f6f6;
+  color: #000;
+}
 
-.definitions-card {}
+.definitons-card-item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
-.definitons-card-item {}
+.definitons-card-item:not(:last-child) {
+  border-bottom: 1px solid #d2d2d2;
+}
 
-.definitons-card-title {}
+.definitons-card-title {
+  margin-bottom: 7px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
 
-.definitons-card-value {}
+.definitons-card-value {
+  margin: 0;
+  font-size: 16px;
+  line-height: 19px;
+}
 
 /* CONTACT-PAGE */
 
@@ -758,4 +785,22 @@ img {
 .contact-page-form-submit {
   align-self: flex-end;
   margin-top: 20px;
+}
+
+.contact-page-info {
+  width: 494px;
+  margin-left: 10px;
+}
+
+
+/* retina bgs */
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+  .notification-cta {
+    background-image: url("../img/bg@2x.jpg");
+  }
 }
